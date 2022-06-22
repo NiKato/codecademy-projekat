@@ -1,0 +1,78 @@
+/* Sve */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Navigacija */
+
+.logo {
+    height: 50px;
+    margin-right: auto;
+    padding: 10px 0px 0px 10px;
+}
+
+.nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.container {
+    list-style: none;
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.items {
+    padding: 20px 10px;
+}
+
+/* Tegla  */
+
+.tegla {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.tegla-text {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    text-align: center;
+    padding: 10px 0px;
+    line-height: 50px;
+}
+
+.teas {
+    margin: 50px 0px;;
+    line-height: 50px;
+}
+
+.tea-image {
+    width: 300px;
+    height: 200px;
+}
+
+.teas-images {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
